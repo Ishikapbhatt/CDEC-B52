@@ -297,3 +297,33 @@ Job control: Includes basic job control for managing background and foreground p
 
 **Use Case:** Used by users who are familiar with C-like syntax and need a simple shell for interactive use.
 
+# Linux Prompt
+
+The Linux command line is a text interface to your computer. Often referred to as the shell, terminal, console, prompt or various other names, it can give the appearance of being complex and confusing to use.
+
+![image](https://github.com/user-attachments/assets/53a9e62a-b992-4c3b-add1-bf7f435cb050)
+
+root  username
+
+LocalHost  m/c name-IP / hostname
+
+~  current working directory
+
+#  represent root user
+
+$  represent localuser
+
+
+
+Blue colour  Folder
+
+Black colour  File
+
+Green Colour  Script with execution permission
+
+
+
+
+
+
+
