@@ -142,3 +142,30 @@ Many Linux distributions are lightweight and can run on older or less powerful h
 **18. Free Software Ecosystem**
 
 A lot of free and open-source software (FOSS) is available for Linux, including tools for productivity, development, graphics, multimedia, and more.
+
+# Introduction to Linux
+
+Linux is an open-source, Unix-like operating system (OS) that was created by Linus Torvalds in 1991. It has since evolved into one of the most widely used operating systems globally, powering everything from personal computers to servers, mobile devices, and embedded systems. Unlike proprietary operating systems like Windows or macOS, Linux is free to use, and its source code is publicly available for anyone to view, modify, and distribute.
+
+# Architecture of Linux
+
+![image](https://github.com/user-attachments/assets/2abe785b-af26-4d75-82a1-86ac9174243b)
+
+The architecture of Linux is composed of several layers, each playing a specific role in managing system resources and providing various services to users and applications. These layers interact with each other to deliver a complete operating system experience. The key components of the Linux architecture are:
+
+**1. Hardware Layer**
+
+This is the physical layer, consisting of all the hardware components of the computer, including the CPU, memory, hard disk, network interface, and other devices like printers, monitors, etc. The hardware layer provides the resources that the operating system needs to function.
+
+**2. Kernel**
+
+The kernel is the core part of the Linux operating system, and it interacts directly with the hardware. The kernel's primary responsibility is to manage system resources and ensure that programs and users can access hardware resources efficiently and securely.
+
+**3. Shell**
+
+The shell is a command-line interface (CLI) that allows users to interact with the operating system. It serves as a mediator between the user and the kernel. When a user types commands, the shell interprets these commands and passes them to the kernel for execution. Popular shells in Linux include Bash (Bourne Again Shell), Zsh, and Fish.
+
+**4. System Utilities**
+
+System utilities are the set of user-level programs and services that provide basic functionality to the system. They are the essential tools and utilities required for system maintenance and operation. These include programs for file management (e.g., cp, mv, rm), text processing (e.g., sed, awk, grep), network management (e.g., ping, ifconfig), and system monitoring (e.g., ps, top).
+
