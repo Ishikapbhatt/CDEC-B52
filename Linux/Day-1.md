@@ -309,7 +309,7 @@ LocalHost  m/c name-IP / hostname
 
 ~  current working directory
 
-#  represent root user
+#  represent root user
 
 $  represent localuser
 
@@ -321,6 +321,8 @@ Black colour  File
 
 Green Colour  Script with execution permission
 
+# Linux 19 File Sysytem Hie
+![image](https://github.com/user-attachments/assets/5cbcff8c-0564-47fd-8364-93adc5aed1e6)
 
 
 
