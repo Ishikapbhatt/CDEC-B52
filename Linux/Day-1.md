@@ -437,6 +437,43 @@ $: This symbol means you're logged in as a normal user.
 
 **#shutdown –r** – to restart 
 
+#### SYSTEM COMMANDS:
+
+**#uname –r** – display kernel release version
+
+**#cat /etc/lsb-release** – to display the ubuntu
+
+**#uname –n** – display the node name 
+
+**#uname –o** – display the operating system
+
+**#uname –s** – display the kernel name
+
+**#uname –m** – display machine architecture
+
+**#uname –p** – display the processor architecture
+
+**#lscpu** – display the detail process information
+
+**#cat /proc/cpuinfo** – display the detail process information
+
+**#free** – display memory
+
+**#free –m** – display memory information in MB
+
+**#free –g** – display memory information in GB
+
+**#free –h** – display memory information in human readable
+
+**#dmicode** – display detail information of RAM, HDD, ROM, CPU, etc.
+
+#### Help Commands:
+
+**#man <command_name>** – display the manual page of the command
+
+**#<command_name> --help**  - display all available options of specified command 
+
+**#which <Command_name>** - display the executable file path of specified command 
 
 #### Commands for Navigating the File System:
 **ls(list files and directories)** : The ls command is used to list the contents of a directory. It will list down all the files and folders present in the given directory.
