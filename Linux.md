@@ -680,7 +680,7 @@ A user is an entity, in a Linux operating system, that can manipulate files and 
 **userdel:** The userdel command is used to remove a user on Linux. Once we remove a user, all the information related to that user will be removed.
 
 
-# Grpoup Management:
+# Group Management:
 
 There are 2 categories of groups in the Linux operating system i.e. Primary and Secondary groups. The Primary Group is a group that is automatically generated while creating a user with a unique user ID simultaneously a group with an ID the same as the user ID is created and the user gets added to the group and becomes the first and only member of the group. This group is called the primary group. A secondary group is a group that can be created separately with the help of commands and we can then add users to it by changing the group ID of users.
 
@@ -738,7 +738,7 @@ There are 2 categories of groups in the Linux operating system i.e. Primary and 
 
 **OPTIONS:**
 
-**-a=**add user in the group
+**-a=** add user in the group
 
 **-d=** delete user from the group
 
@@ -751,10 +751,20 @@ There are 2 categories of groups in the Linux operating system i.e. Primary and 
 **groupdel:** This command is used to delete group.
 
 
+# File Permissions in Linux
+
+![image](https://github.com/user-attachments/assets/c064fb2d-d5b3-47d5-86d6-cd2d19aa2baf)
 
 
+![image](https://github.com/user-attachments/assets/00e90622-2b7a-4e42-9d23-4a639da94c15)
 
 
+![image](https://github.com/user-attachments/assets/bbc4561d-45ce-4edf-b8a9-bea9b124251a)
+
+![image](https://github.com/user-attachments/assets/a315b05e-acbc-4701-9d32-2e1a0a4e61c1)
+
+
+![image](https://github.com/user-attachments/assets/d1c93811-288b-4264-aa79-2dd989514e30)
 
 
 
