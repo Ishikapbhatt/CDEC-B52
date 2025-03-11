@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/84b36e0d-b47a-42b5-9969-a2bd76f33589)# Introduction to Devops
+# Introduction to Devops
 
 ** Software development and IT operations are separated by a set of procedures called DevOps. It focuses on encouraging cooperation and communication between the operations and development teams in order to improve the effectiveness and caliber of software delivery. To simplify the software development lifecycle, DevOps automates workflows, infrastructure, and ongoing application performance monitoring. This strategy calls for considerable cultural and corporate changes in addition to technological ones.
 **
