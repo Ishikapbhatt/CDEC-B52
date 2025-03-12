@@ -343,7 +343,7 @@ Green Colour  Script with execution permission
 
 /media — — It is used as a mounting point for removable area. such as USB drives
 
-/mnt — — It is used as a temprary mounting point
+/mnt — — It is used as a permanent mounting point
 
 /opt — — It is most installed third party software.
 
