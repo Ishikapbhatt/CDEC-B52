@@ -34,14 +34,3 @@
 
  The user harry can neither write nor read /var/tmp/fstab.
 
-#### **Q4 Copy the file /etc/fstab to /var/tmp. Configure the permissions of/var/tmp/fstab so that:**
-
- The file /var/tmp/fstab is owned by the root user.
-
- The file /var/tmp/fstab belong to the group root.
-
- The file /var/tmp/fstab should not be executable by anyone.
-
- The user natasha is able to read and write /var/tmp/fstab.
-
- The user harry can neither write nor read /var/tmp/fstab.
