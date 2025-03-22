@@ -34,3 +34,10 @@
 
  The user harry can neither write nor read /var/tmp/fstab.
 
+
+#### Q4 You are a system administrator, and your task is to schedule a cron job that backs up a directory (/home/student/projects/) to another location (/home/student/backup/) every day at 2:30 AM. The backup should be done using the cp command.
+
+What command would you add to the crontab file to achieve this?
+
+How would you edit the crontab for the current user to add this job?
+
