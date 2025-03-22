@@ -41,3 +41,28 @@ What command would you add to the crontab file to achieve this?
 
 How would you edit the crontab for the current user to add this job?
 
+
+#### Q5 You need to set up a cron job that clears the system log file (/var/log/myapp.log) every Sunday at midnight. Instead of deleting the file, you should rename it with a timestamp and create a new empty log file.
+
+Tasks:
+Write the cron job command to achieve this.
+
+Explain what each part of the cron job does.
+
+
+#### Q6 Custom Script Execution
+You wrote a script (/home/student/cleanup.sh) that removes temporary files older than 7 days from /tmp. You want to schedule this script to run every Monday, Wednesday, and Friday at 3:15 AM.
+
+Tasks:
+What would the crontab entry look like?
+
+How can you ensure the script runs with the correct permissions?
+
+
+#### Q7 Prevent Duplicate Execution
+You have a script (/home/student/longtask.sh) that sometimes takes a long time to complete. If a new instance starts before the previous one finishes, it can cause problems. Modify the cron job to prevent duplicate executions using a lock file.
+
+Tasks:
+Modify the cron job to ensure only one instance runs at a time.
+
+
