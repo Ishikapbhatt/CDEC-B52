@@ -2,7 +2,7 @@
 
 Virtualization is a technology that allows you to create multiple virtual instances of a physical resource, such as a server, operating system, storage device, or network. These virtual instances (often referred to as "virtual machines" or "VMs") run on a physical machine known as the host, and each virtual instance operates as though it is a standalone system with its own operating system and resources.
 
-**#### Types of Virtualization**
+#### **Types of Virtualization**
 
 **Server Virtualization** : This is the most common form of virtualization. It involves dividing a physical server into multiple virtual servers, each running its own operating system and applications.
 
