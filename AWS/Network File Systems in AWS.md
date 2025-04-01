@@ -4,6 +4,25 @@ Amazon EFS (Elastic File System) is a scalable, fully managed file storage servi
 
 Unlike EBS (Elastic Block Store), which is attached to a single instance, EFS provides shared, concurrent access to multiple instances, making it ideal for distributed applications, container storage, and data analytics.
 
+# Advantages of EFS
+
+✔ Automatic Scaling – Grows/shrinks based on usage
+
+✔ Multi-Instance Access – Supports multiple EC2 instances
+
+✔ Highly Durable & Available – Replicated across multiple AZs
+
+✔ No Capacity Planning Needed – Pay only for what you use
+
+✔ Secure – Supports encryption & IAM policies
+
+# Disadvantages of EFS
+
+❌ Higher Cost Compared to EBS & S3
+
+❌ Not as Fast as EBS for High-Performance Apps
+
+❌ Works Best with Linux (No Native Windows Support)
 
 
 # Introduction to NFS (Network File System)
