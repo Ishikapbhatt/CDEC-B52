@@ -20,6 +20,16 @@
 
  (It is understood that root has access to all files and directories on the system.)
 
+
+
+
+![image](https://github.com/user-attachments/assets/cffe7c9c-b381-411d-9d4b-04ff4f09ae88)
+
+
+
+![image](https://github.com/user-attachments/assets/e683fe39-8dad-448c-a17a-fa17d45ddc3d)
+
+
  Files created in /common/admin automatically have group ownership set to the sysadmin
 
 #### **Q3 Copy the file /etc/fstab to /var/tmp. Configure the permissions of/var/tmp/fstab so that:**
