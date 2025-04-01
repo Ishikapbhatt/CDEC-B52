@@ -115,3 +115,22 @@ You can reduce your Amazon EC2 costs by making a commitment to a specific instan
 **Spot Instances**
 
 Request unused EC2 instances, which can reduce your Amazon EC2 costs significantly.
+
+
+# **AMI**
+
+Amazon Web Services (AWS) publishes many Amazon Machine Images that contain common software
+configurations for public use. In addition, members of the AWS developer community have published
+their own custom AMIs. You can also create your own custom AMI or AMIs; doing so enables you to
+quickly and easily start new instances that have everything you need. For example, if your application is
+a website or a web service, your AMI could include a web server, the associated static content, and the
+code for the dynamic pages. As a result, after you launch an instance from this AMI, your web server
+starts, and your application is ready to accept requests.
+
+All AMIs are categorized as either backed by Amazon EBS, which means that the root device for an
+instance launched from the AMI is an Amazon EBS volume, or backed by instance store, which means
+that the root device for an instance launched from the AMI is an instance store volume created from a
+template stored in Amazon S3.
+
+The description of an AMI indicates the type of root device (either ebs or instance store). This is
+important because there are significant differences in what you can do with each type of AMI.
