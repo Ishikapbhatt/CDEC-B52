@@ -2,8 +2,6 @@
  
  # : Introduction to Docker
 
-## Topics Covered:
-
 ### 1. Difference between Monolithic and Microservices
 - **Monolithic Applications:**
   - Single codebase for all functionalities.
