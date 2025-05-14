@@ -725,3 +725,54 @@ EXPOSE 3000
 # Start the application
 CMD ["npm", "start"]
 ```
+
+
+### Notes for Students
+- Always use specific tags for images to avoid ambiguity.
+- Use multi-stage builds for optimizing large images.
+- Test the Dockerfile thoroughly to ensure proper functionality of the image.
+
+--------
+# Brief Introduction to Docker Compose
+
+Docker Compose is a tool that allows you to define and run multi-container Docker applications using a simple YAML file. With Docker Compose, you can configure and launch your entire application stack, including services, networks, and volumes, in a single command.
+
+## Key Features of Docker Compose:
+1. **Single Configuration**: Define all services in a single `docker-compose.yml` file.
+2. **Multi-Container Management**: Orchestrates multiple containers that form an application.
+3. **Easy to Use**: Simple commands like `docker-compose up` and `docker-compose down` for deployment and teardown.
+4. **Scalable**: Allows scaling individual services.
+
+---
+
+# Deploy a Three-Tier Application Using Docker Compose
+
+In this example, we will deploy a **three-tier application** using Docker Compose. The three tiers include:
+1. **Frontend**: Studentapp (UI layer).
+2. **Backend**: Java Application
+3. **Database**: MySQL (data layer).
+
+## Prerequisites:
+- Install **Docker** and **Docker Compose** on your machine.
+- Basic understanding of Docker and containers.
+
+---
+
+## Step 1: Directory Structure
+
+Create a project directory and organize it as follows:
+```bash
+three-tier-app/
+│   docker-compose.yml
+│
+├── frontend/
+│   └── Dockerfile
+│
+├── backend/
+│   └── Dockerfile
+│
+└── database/
+    └── init.sql
+```
+
+---
