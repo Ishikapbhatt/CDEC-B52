@@ -745,6 +745,35 @@ Docker Compose is a tool that allows you to define and run multi-container Docke
 
 ---
 
+# docker-compose installation
+
+````
+sudo curl -L "https://github.com/docker/compose/releases/download/$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d'"' -f4)/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+````
+````
+sudo chmod +x /usr/local/bin/docker-compose
+````
+````
+docker-compose --version
+````
+
+### docker compose commands
+````
+vim docker-compose.yaml
+````
+````
+docker-compose build
+````
+````
+docker-compose up -d
+````
+````
+docker-compose down
+````
+
+## Conclusion
+
+
 # Deploy a Three-Tier Application Using Docker Compose
 
 In this example, we will deploy a **three-tier application** using Docker Compose. The three tiers include:
