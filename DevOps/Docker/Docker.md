@@ -41,6 +41,10 @@
   - Open-source platform for developing, shipping, and running applications.
   - Enables containerization.
 
+## Docker Architecture
+![](http://apachebooster.com/kb/wp-content/uploads/2017/09/docker-architecture.png)
+
+
 ### 5. Difference between Docker CE and Docker EE
 - **Docker Community Edition (CE):**
   - Free and open-source.
