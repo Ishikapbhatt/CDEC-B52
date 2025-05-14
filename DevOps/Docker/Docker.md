@@ -583,6 +583,47 @@ Docker volumes are a persistent storage mechanism used to store data generated b
 
 ---
 
+##  Volumes
+- Sharing data between containers and containers and host.
+- Virtual "dicsc"
+- Two types:
+  + Persistent : Keep when container went away.
+  + Ephemeral: exists in container life.
+- Volumes is not a part of image.
+
+### 1. Sharing data with the host
+- like VMware.
+- Sharing folders with the host
+ex:
+```
+mkdir /home/docker/my-volume
+docker run -ti -v=/home/docker/my-volume:/shared-folder ubuntu bash
+cd /shared-folder
+touch my-data
+Press Crtl + D
+
+ls ./my-volume/shared-folder
+```
+- Sharing a "single file" into a container
+
+### 2. Sharing Data between Containers
+* volumes-from
+* Shared disks that exist only as long as they are being used
+* Can be shared between containers
+
+ex
+- Container #1
+```
+docker run -ti -v /shared-data ubuntu bash
+echo "hello, is it great!" > /shared-data/my-file
+```
+- Container #2
+```
+docker ps -l
+docker run -ti --volumnes-from jovial_goodall ubuntu bash
+cat /shared-data/my-file
+
+
 ## Best Practices
 1. Use named volumes for better manageability.
 2. Avoid storing critical application data in anonymous volumes.
