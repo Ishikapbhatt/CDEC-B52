@@ -543,18 +543,31 @@ spec:
 - Example:
 ```yaml
 apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+  labels:
+    app: nginx
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      ports:
+        - containerPort: 80
+---
+apiVersion: v1
 kind: Service
 metadata:
-  name: nodeport-service
+  name: nginx-service
 spec:
   type: NodePort
   selector:
-    app: backend
+    app: nginx
   ports:
-  - protocol: TCP
-    port: 80
-    targetPort: 8080
-    nodePort: 30007
+    - protocol: TCP
+      port: 80          # Service port
+      targetPort: 80    # Container port
+      nodePort: 30080   # Node port exposed to the outside (must be in 30000–32767)
 ```
 
 #### 3. **LoadBalancer**
