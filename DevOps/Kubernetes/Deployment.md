@@ -118,3 +118,16 @@ kubectl get deployments
 kubectl describe deployment node-app-deployment
 ```
 
+#### Update with annotation:
+
+```
+kubectl set image deployment/node-app-deployment node-app=yourimage:v2
+kubectl annotate deployment node-app-deployment kubernetes.io/change-cause="Update to v2 with bug fix"
+```
+
+#### Check rollout history:
+
+```
+kubectl rollout history deployment node-app-deployment
+```
+
