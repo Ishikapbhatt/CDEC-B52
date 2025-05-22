@@ -118,6 +118,25 @@ CREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(100));
 INSERT INTO students VALUES (1, 'Alice'), (2, 'Bob');
 SELECT * FROM students;
 ```
+#### Delete the Pod
+
+```
+kubectl delete pod mysql-0
+```
+
+#### Watch it restart
+
+```
+kubectl get pods -l app=mysql -w
+```
+
+#### Verify data
+
+```
+kubectl exec -it mysql-0 -- mysql -u root -p
+USE testdb;
+SELECT * FROM students;
+```
 
 Edit the PVC to set the volume name
 
