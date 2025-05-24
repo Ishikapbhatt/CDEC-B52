@@ -1,4 +1,4 @@
-# Configmap
+# Secrets
 
 ## Create the yaml file for Secret
 
