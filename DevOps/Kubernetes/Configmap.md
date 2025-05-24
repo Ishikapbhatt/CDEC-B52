@@ -35,7 +35,7 @@ spec:
       name: my-config
 ```
 
-### Apply bothe the file
+### Apply both the file
 
 ```
 kubectl apply -f configmap.yaml
