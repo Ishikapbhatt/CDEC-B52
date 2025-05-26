@@ -42,23 +42,6 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my-pod-volume
-spec:
-  containers:
-  - name: my-container
-    image: nginx
-    volumeMounts:
-    - name: secret-volume
-      mountPath: /etc/secrets
-      readOnly: true
-  volumes:
-  - name: secret-volume
-    secret:
-      secretName: my-secret
-root@ip-172-31-26-30:~# cat pod-secret-env.yaml 
-apiVersion: v1
-kind: Pod
-metadata:
   name: my-pod
 spec:
   containers:
