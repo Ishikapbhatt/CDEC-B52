@@ -129,15 +129,6 @@ resource "null_resource" "update_kubeconfig_v2" {
   depends_on = [aws_eks_cluster.cbz_cluster]
 }
 
-# Automatically Update Kubeconfig for kubectl Access
-resource "null_resource" "update_kubeconfig_v2" {
-  provisioner "local-exec" {
-    command = "aws eks --region ap-southeast-2 update-kubeconfig --name cbz-cluster"
-  }
-
-  depends_on = [aws_eks_cluster.cbz_cluster]
-}
-
 # Add Admin IAM Role to aws-auth ConfigMap
 resource "null_resource" "configure_aws_auth" {
   provisioner "local-exec" {
