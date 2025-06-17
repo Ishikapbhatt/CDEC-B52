@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/Ishikapbhatt/Django.git', branch: 'main'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'docker build -t django-app-img:v1 .'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Testing'
+                // Optionally add test commands here
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                sh 'docker run -d --name django-app -p 8000:8000 django-app-img:v1'
+            }
+        }
+    }
+}
